@@ -1,14 +1,13 @@
 # jeditable-datepicker
 
-Inline editing with a datepicker!
+Inline editing with a datepicker. Clean and simple. Based on jQuery UI.
 
 ## Background
 
- * Jeditable is inline editing plugin for jQuery.
+ * [Jeditable](http://www.appelsiini.net/projects/jeditable) is inline editing plugin for jQuery.
  * Jeditable works with several types of input fields out of the box, like text fields and text area fields.
  * You can write your own plugins for Jeditable to support inline editing of other types of input fields. Yes, plugins for the plugin.
  * The jeditable-datepicker is Jeditable plugin to work with jQuery UI Datepicker.
- * Not to be confused with 
 
 ## Demo
 
