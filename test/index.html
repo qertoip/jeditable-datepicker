@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>jeditable-datepicker demo</title>
+  <link href="stylesheets/jquery-ui-1.8.12.custom.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="stylesheets/example.css" media="screen" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class='container'>
+    <h1>jeditable-datepicker demo</h1>
+    <p>
+      Inline editing with a datepicker!
+    </p>
+    <p>
+      It is hosted and documented on <a href="https://github.com/qertoip/jeditable-datepicker">Github</a> and advertised on <a href="http://thesingularity.pl">TheSingularity</a> blog.
+    </p>
+    <p>
+      Tested on IE7+, Opera, Safari, Chrome and Firefox.
+    </p>
+    <h2>See it in action</h2>
+    <p>
+      Hover over the following date
+      <span class="editable">05/30/2011</span>
+      and click it to enable in place editing.
+      Use [enter] to confirm, [esc] to cancel, or pick the day from the datepicker.
+    </p>
+    <h2>Example code</h2>
+    <code>
+      <pre>
+        $( '.editable' ).editable( {
+          type: 'datepicker'
+        } );
+      </pre>
+    </code>
+  </div>
+  <!-- Remark: in production setting you would prefer to host jQuery and jQuery UI on Google -->
+  <script src="javascripts/jquery-1.5.2.min.js"></script>
+  <script src="javascripts/jquery-ui-1.8.12.custom.min.js"></script>
+  <script src="javascripts/jquery.jeditable.mini.js"></script>
+  <script src="javascripts/jquery.jeditable.datepicker.js"></script>
+  <script src="javascripts/example.js"></script>
+</body>
+</html>

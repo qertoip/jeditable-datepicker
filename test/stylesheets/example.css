@@ -1,0 +1,17 @@
+
+.editable {
+  font-weight: bold;
+}
+
+.editable:hover {
+  cursor: text;
+  background-color: #add8e6;
+}
+
+.editable form {
+  display: inline-block;
+}
+
+.editable input {
+  width: 86px;
+}
