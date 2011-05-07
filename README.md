@@ -1,6 +1,6 @@
 # jeditable-datepicker
 
-In place editing with a datepicker. Clean and simple. Based on jQuery UI.
+In place editing with a datepicker. Clean and simple. Based on jQuery UI and Jeditable.
 
 ## Background
 
