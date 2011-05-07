@@ -13,6 +13,10 @@ In place editing with a datepicker. Clean and simple. Based on jQuery UI and Jed
 
 [See it in action!](http://thesingularity.pl/jeditable-datepicker-demo)
 
+## Tested
+
+IE7+, Firefox, Chrome, Opera, Safari
+
 ## Usage
 
     $( '.editable' ).editable( {
