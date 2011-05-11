@@ -36,8 +36,8 @@ $.editable.addInputType( 'datepicker', {
 
       // Don't cancel inline editing onblur to allow clicking datepicker
       settings.onblur = 'nothing';
-      
-      input.datepicker( {
+
+      datepicker = {
         onSelect: function() {
           // clicking specific day in the calendar should
           // submit the form and close the input field
@@ -63,6 +63,12 @@ $.editable.addInputType( 'datepicker', {
             // without a delay the form is submitted in all scenarios, which is wrong
           }, 150 );
         }
-      } );
+      };
+    
+      if (settings.datepicker) {
+        jQuery.extend(datepicker, settings.datepicker);
+      }
+
+      input.datepicker(datepicker);
     }
 } );

@@ -7,7 +7,11 @@ $( document ).ready( function() {
       date.html( value );
     },
     {
-      type: 'datepicker'
+      type: 'datepicker',
+      datepicker: {
+        changeMonth: true,
+        changeYear: true
+      }
     }
   );
 
