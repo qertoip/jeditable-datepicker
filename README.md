@@ -20,7 +20,8 @@ IE7+, Firefox, Chrome, Opera, Safari
 ## Usage
 
     $( '.editable' ).editable( {
-      type: 'datepicker'
+      type: 'datepicker',
+      datepicker: {	dateFormat: 'yy-mm-dd', numberOfMonths: 2 } //Array of options to pass through to the datepicker
     } );
 
 ## Dependencies
